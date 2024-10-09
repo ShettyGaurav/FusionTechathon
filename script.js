@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     speed: 500,
   });
 // Example JavaScript code to set the countdown values (using date-fns library)
-const targetDate = new Date("2023-09-02 00:00:00");
+const targetDate = new Date("2024-10-25 00:00:00");
 
 function updateCountdown() {
   const now = new Date();

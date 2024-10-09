@@ -274,7 +274,7 @@ margin-top: 20px;
   left: 0;
   position: absolute;
   transition: transform 0.3s ease;
-  filter: brightness(2)
+  filter: brightness(1.8)
 }
 
  /* Individual images */
