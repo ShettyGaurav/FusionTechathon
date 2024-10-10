@@ -1017,7 +1017,7 @@ svg text {
     display: inline-block;
     padding: 10px 20px;
     margin: 0% 23%;
-    margin-left: 112px;
+    margin-left: 104px;
     background-color: #ffbb00;
     color: #000;
     font-family: "Poppins", sans-serif;
@@ -1199,7 +1199,7 @@ svg text {
     font-size: 2rem;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 40%;
+    top: 39.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Place the text above the image */
@@ -1220,7 +1220,7 @@ svg text {
     font-size: 2rem;
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 20.6%;
+    top: 20.4%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Place the text above the image */
