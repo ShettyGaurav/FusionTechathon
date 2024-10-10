@@ -514,7 +514,7 @@ flex-wrap: wrap; /* Allow children to wrap if necessary */
 /* Update styles for glassmorphism-container2 */
 .glassmorphism-container2 {
 font-family: 'Staatliches', cursive;
-width: 300px;
+width: 280px;
 height: 100px;
 background-color: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(10px);
