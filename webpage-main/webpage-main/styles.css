@@ -361,6 +361,7 @@ background-image: linear-gradient(45deg, #bb4b00 0%, #ffbb00 50%, #eb6200 100%);
 background-size: 200% auto;
 color: transparent;
 font-size: 2.5rem;
+margin-left: 20px;
 background-clip: text;
 -webkit-background-clip: text;
 animation: gradientAnimation 5s linear infinite;
@@ -458,14 +459,15 @@ margin: 0 50px; /* Increase or decrease this value to adjust spacing */
 
 /* Add styling for the glassmorphism container */
 .glassmorphism-container {
-width: 440px; /* Set the width of the container */
+width: 400px; /* Set the width of the container */
 height: 400px; /* Set the height of the container */
 background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
 backdrop-filter: blur(10px); /* Apply the glassmorphism effect */
 border-radius: 10px; /* Rounded corners */
 margin: 20px auto;
-margin-left: 650px;
+margin-left: 680px;
 display: flex;
+margin-top: 100px;
 align-items: center;
 justify-content: center;
 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Add transition for background-color */
@@ -527,8 +529,8 @@ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-
 }
 .glassmorphism-container21 {
 font-family: 'Staatliches', cursive;
-width: 400px;
-height: 400px;
+width: 250px;
+height: 250px;
 background-color: rgba(255, 255, 255, 0.1);
 backdrop-filter: blur(10px);
 border-radius: 10px;
@@ -628,9 +630,10 @@ font-size: 4rem;
 color: rgb(255, 255, 255);
 position: absolute;
 top: 48%;
-left: 50%;
+left: 52%;
 transform: translate(-50%, -50%);
 z-index: 1; /* Place the text above the image */
+
 }
 .binary-text1 {
   font-family: 'Lexend', sans-serif;
@@ -643,15 +646,16 @@ z-index: 1; /* Place the text above the image */
   z-index: 1; /* Place the text above the image */
   }
 .quantum-text {
-  margin-left: 48px;
+  margin-left: 70px;
 font-family: 'Lexend', sans-serif;
 font-size: 4rem;
 color: rgb(255, 255, 255);
 position: absolute;
-top: 5%;
-left: 50%;
+top: 7%;
+left: 48%;
 transform: translate(-50%, -50%);
 z-index: 1; /* Place the text above the image */
+width: auto;
 }
 .cyber-text {
 font-family: 'Lexend', sans-serif;
@@ -963,6 +967,16 @@ display: block;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
   }
+  .menu-button{
+    margin-right: 550px;
+  }
+  .glassmorphism-container{
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+  }
+  
   .glassmorphism-container4 {
     font-family: 'Staatliches', cursive;
     width: 300px;
@@ -1201,10 +1215,12 @@ z-index: 1; /* Place the text above the image */
 .quantum-text {
 font-family: 'Lexend', sans-serif;
 font-size: 2rem;
+width: 400px;
 color: rgb(255, 255, 255);
 position: absolute;
-top: 6.5%;
-left: 50%;
+top: 4%;
+left: 36%;
+margin-left: 115px;
 transform: translate(-50%, -50%);
 z-index: 1; /* Place the text above the image */
 }
@@ -1329,3 +1345,4 @@ margin-left: 30px;
 }
 
 }
+
