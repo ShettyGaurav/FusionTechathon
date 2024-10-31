@@ -694,7 +694,7 @@ svg text {
   font-size: 4rem;
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 30%;
+  top: 48%;
   left: 52%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Place the text above the image */
@@ -1186,8 +1186,10 @@ svg text {
     line-height: 1.5;
   }
   .sponsor-text {
+    width: 100%;
     font-size: 24px;
     margin-top: 20px;
+    margin-right:20px ;
   }
   .container-heading {
     font-family: "Lexend", sans-serif;
