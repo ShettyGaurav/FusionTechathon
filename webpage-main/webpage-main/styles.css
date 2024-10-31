@@ -1269,7 +1269,7 @@ svg text {
     color: rgb(255, 255, 255);
     position: absolute;
     top: 4%;
-    left: 36%;
+    left: 30%;
     margin-left: 115px;
     transform: translate(-50%, -50%);
     z-index: 1; /* Place the text above the image */
@@ -1406,7 +1406,10 @@ svg text {
 }
 
 .glassmorphism-container21{
-  margin-left: 50px;
-
+  margin-left: 75px;
+  margin-bottom: 10px;
 }
 
+.about-title{
+  margin-right: 70px;
+}
